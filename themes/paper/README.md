@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Paper <sup><sup><sub>5.1</sub></sup></sup></h1>
+<h1>Paper <sup><sup><sub>6</sub></sup></sup></h1>
 
 Demo → [hugo-paper.vercel.app](https://hugo-paper.vercel.app/)
 
@@ -7,7 +7,7 @@ Demo → [hugo-paper.vercel.app](https://hugo-paper.vercel.app/)
 
 A simple, clean, flexible Hugo theme.
 
-⚡️ Fast | 🦋 Fluent | 🪀 Smooth
+⚡️ Fast | 📸 Fluent | 🫙 Smooth
 
 </div>
 
@@ -15,15 +15,15 @@ A simple, clean, flexible Hugo theme.
 
 ## Links
 
-Product Hunt: [producthunt.com/posts/hugo-paper](https://www.producthunt.com/posts/hugo-paper)
+Product Hunt: [producthunt.com/posts/hugo-paper-6](https://www.producthunt.com/posts/hugo-paper-6)
 
 Hugo themes: [themes.gohugo.io/hugo-paper](https://themes.gohugo.io/hugo-paper/)
 
 ## Overview
 
-![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/master/images/screenshot.png)
-![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/master/images/screenshot_dark.png)
-![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/master/images/screenshot_mobile.png)
+![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/main/images/screenshot.png)
+![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/main/images/screenshot_dark.png)
+![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/main/images/screenshot_mobile.png)
 
 ## Install
 
@@ -49,18 +49,28 @@ Available options to `config.toml`:
 disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # add disqus comments
 
 [params]
-  disableHLJS = true                         # don't use highlight.js
-  twitter = 'YOUR_TWITTER_ID'                # twitter.com/YOUR_TWITTER_ID
-  github = 'YOUR_GITHUB_ID'                  # github.com/YOUR_GITHUB_ID
-  instagram = 'YOUR_INSTAGRAM_ID'            # instagram.com/YOUR_INSTAGRAM_ID
+    # show header social icons
+    twitter = 'YOUR_TWITTER_ID'     # twitter.com/YOUR_TWITTER_ID
+    github = 'YOUR_GITHUB_ID'       # github.com/YOUR_GITHUB_ID
+    instagram = 'YOUR_INSTAGRAM_ID' # instagram.com/YOUR_INSTAGRAM_ID
+    rss = true                      # show rss icon with link
+
+    # show home page profile
+    avatar = 'GRAVATAR_EMAIL'       # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+    name = 'YOUR_NAME'
+    bio = 'YOUR_BIO'
+
+    # misc
+    disableHLJS = true              # disable requesting highlight.js
+    monoDarkIcon = true             # show monochrome dark mode icon
 ```
 
 ## License
 
-[MIT License](https://github.com/nanxiaobei/hugo-paper/blob/master/LICENSE) (c) [nanxiaobei](https://lee.so/)
+[MIT License](https://github.com/nanxiaobei/hugo-paper/blob/main/LICENSE) (c) [nanxiaobei](https://lee.so/)
 
 ## FUTAKE
 
 Try [**FUTAKE**](https://sotake.com/f) in WeChat. A mini app for your inspiration moments. 🌈
 
-![FUTAKE](https://s3.jpg.cm/2021/09/21/IFG3wi.png)
+![](https://s3.bmp.ovh/imgs/2022/07/21/452dd47aeb790abd.png)
