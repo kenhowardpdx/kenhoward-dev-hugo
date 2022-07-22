@@ -1,4 +1,16 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "kenhoward.dev"
+theme = "paper"
+
+[params]
+    # show header social icons
+    twitter = 'kenhowardpdx'
+    github = 'kenhowardpdx'
+    rss = true
+
+    avatar = 'kennyhoward@gmail.com'
+    name = 'Ken Howard'
+    bio = 'A husband. A father. A software engineer.'
+
+    monoDarkIcon = true             # show monochrome dark mode icon
