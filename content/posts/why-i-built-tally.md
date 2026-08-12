@@ -15,5 +15,5 @@ looking backward at where your money went, it looks forward — projecting your 
 day by day based on your recurring bills and actual spending patterns, so you can see a
 dip coming before it happens instead of after.
 
-It's called [Tally](https://tallyahead.com), and it's in early access now. If you've ever
-been surprised by your own bank account, I'd love for you to try it.
+It's called [Tally, a cash flow forecasting tool](https://tallyahead.com), and it's in early
+access now. If you've ever been surprised by your own bank account, I'd love for you to try it.
